@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="34" total="51" passed="16" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-14T02:54:59 IST" name="suite" finished-at="2022-12-14T02:56:19 IST" duration-ms="80131">
+    <groups>
+    </groups>
+    <test started-at="2022-12-14T02:54:59 IST" name="Test" finished-at="2022-12-14T02:56:19 IST" duration-ms="80131">
+      <class name="com.assignment.testcase.BackwardKeyTest">
+        <test-method signature="backwardkey()[pri:0, instance:com.assignment.testcase.BackwardKeyTest@53045c6c]" started-at="2022-12-14T02:55:41 IST" name="backwardkey" finished-at="2022-12-14T02:55:41 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backwardkey -->
+      </class> <!-- com.assignment.testcase.BackwardKeyTest -->
+      <class name="com.assignment.testcase.BestofelectronicsViewAllTest">
+        <test-method signature="forwardkey()[pri:0, instance:com.assignment.testcase.BestofelectronicsViewAllTest@5149d738]" started-at="2022-12-14T02:55:41 IST" name="forwardkey" finished-at="2022-12-14T02:55:41 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardkey -->
+      </class> <!-- com.assignment.testcase.BestofelectronicsViewAllTest -->
+      <class name="com.assignment.testcase.GroceryTest">
+        <test-method signature="grocery()[pri:0, instance:com.assignment.testcase.GroceryTest@1cf6d1be]" started-at="2022-12-14T02:55:32 IST" name="grocery" finished-at="2022-12-14T02:55:35 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grocery -->
+      </class> <!-- com.assignment.testcase.GroceryTest -->
+      <class name="com.assignment.testcase.MoreTest">
+        <test-method signature="logOut()[pri:0, instance:com.assignment.testcase.MoreTest@548d708a]" started-at="2022-12-14T02:55:43 IST" name="logOut" finished-at="2022-12-14T02:56:13 IST" duration-ms="30255" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="_3vhnxf" and text()="Notification Preferrences"]"}
+  (Session info: chrome=108.0.5359.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02NMBB', ip: '192.168.1.51', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc7d82cc1367b505aaada41708bba056, findElement {using=xpath, value=//div[@class="_3vhnxf" and text()="Notification Preferrences"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\RITIKN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63621/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dc7d82cc1367b505aaada41708bba056]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="_3vhnxf" and text()="Notification Preferrences"]"}
+  (Session info: chrome=108.0.5359.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02NMBB', ip: '192.168.1.51', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc7d82cc1367b505aaada41708bba056, findElement {using=xpath, value=//div[@class="_3vhnxf" and text()="Notification Preferrences"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\RITIKN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63621/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dc7d82cc1367b505aaada41708bba056
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at com.assignment.testcase.MoreTest.logOut(MoreTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.assignment.testcase.MoreTest -->
+      <class name="com.assignment.testcase.LogOutTest">
+        <test-method signature="logOut()[pri:0, instance:com.assignment.testcase.LogOutTest@742ff096]" started-at="2022-12-14T02:56:18 IST" name="logOut" finished-at="2022-12-14T02:56:19 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.assignment.testcase.LogOutTest -->
+      <class name="com.assignment.testcase.ViewCartToHomeTest">
+        <test-method signature="viewOrder()[pri:0, instance:com.assignment.testcase.ViewCartToHomeTest@7bba5817]" started-at="2022-12-14T02:56:18 IST" name="viewOrder" finished-at="2022-12-14T02:56:18 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewOrder -->
+      </class> <!-- com.assignment.testcase.ViewCartToHomeTest -->
+      <class name="com.assignment.testcase.WinterEssentialsViewAllTest">
+        <test-method signature="forwardkey()[pri:0, instance:com.assignment.testcase.WinterEssentialsViewAllTest@3a7442c7]" started-at="2022-12-14T02:55:41 IST" name="forwardkey" finished-at="2022-12-14T02:55:42 IST" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardkey -->
+      </class> <!-- com.assignment.testcase.WinterEssentialsViewAllTest -->
+      <class name="com.assignment.testcase.InputInSearchBarTest">
+        <test-method signature="search()[pri:0, instance:com.assignment.testcase.InputInSearchBarTest@53fb3dab]" started-at="2022-12-14T02:56:18 IST" name="search" finished-at="2022-12-14T02:56:18 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- com.assignment.testcase.InputInSearchBarTest -->
+      <class name="com.assignment.testcase.SearchBarSubmitTest">
+        <test-method signature="search()[pri:0, instance:com.assignment.testcase.SearchBarSubmitTest@cb0755b]" started-at="2022-12-14T02:56:18 IST" name="search" finished-at="2022-12-14T02:56:18 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- com.assignment.testcase.SearchBarSubmitTest -->
+      <class name="com.assignment.testcase.ViewCartTest">
+        <test-method signature="viewOrder()[pri:0, instance:com.assignment.testcase.ViewCartTest@712625fd]" started-at="2022-12-14T02:56:18 IST" name="viewOrder" finished-at="2022-12-14T02:56:18 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewOrder -->
+      </class> <!-- com.assignment.testcase.ViewCartTest -->
+      <class name="com.assignment.testcase.SearchBarTest">
+        <test-method signature="search()[pri:0, instance:com.assignment.testcase.SearchBarTest@4b013c76]" started-at="2022-12-14T02:56:13 IST" name="search" finished-at="2022-12-14T02:56:18 IST" duration-ms="5144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- com.assignment.testcase.SearchBarTest -->
+      <class name="com.assignment.testcase.LogInPageTest">
+        <test-method is-config="true" signature="initializeWebdriver(java.lang.String)[pri:0, instance:com.assignment.testcase.LogInPageTest@202b0582]" started-at="2022-12-14T02:54:59 IST" name="initializeWebdriver" finished-at="2022-12-14T02:55:26 IST" duration-ms="27084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method signature="login()[pri:0, instance:com.assignment.testcase.LogInPageTest@202b0582]" started-at="2022-12-14T02:55:26 IST" name="login" finished-at="2022-12-14T02:55:32 IST" duration-ms="5631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.assignment.testcase.LogInPageTest@202b0582]" started-at="2022-12-14T02:56:19 IST" name="closeBrowser" finished-at="2022-12-14T02:56:19 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.assignment.testcase.LogInPageTest -->
+      <class name="com.assignment.testcase.GroceryToHomeTest">
+        <test-method signature="grocerytohome()[pri:0, instance:com.assignment.testcase.GroceryToHomeTest@19e4653c]" started-at="2022-12-14T02:55:38 IST" name="grocerytohome" finished-at="2022-12-14T02:55:41 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grocerytohome -->
+      </class> <!-- com.assignment.testcase.GroceryToHomeTest -->
+      <class name="com.assignment.testcase.ForwardKeyTest">
+        <test-method signature="forwardkey()[pri:0, instance:com.assignment.testcase.ForwardKeyTest@795509d9]" started-at="2022-12-14T02:55:41 IST" name="forwardkey" finished-at="2022-12-14T02:55:41 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forwardkey -->
+      </class> <!-- com.assignment.testcase.ForwardKeyTest -->
+      <class name="com.assignment.testcase.BestofelectronicsViewAllToHomeTest">
+        <test-method signature="viewall()[pri:0, instance:com.assignment.testcase.BestofelectronicsViewAllToHomeTest@6bbe85a8]" started-at="2022-12-14T02:55:41 IST" name="viewall" finished-at="2022-12-14T02:55:41 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewall -->
+      </class> <!-- com.assignment.testcase.BestofelectronicsViewAllToHomeTest -->
+      <class name="com.assignment.testcase.GroceryPincodeTest">
+        <test-method signature="grocery()[pri:0, instance:com.assignment.testcase.GroceryPincodeTest@663c9e7a]" started-at="2022-12-14T02:55:35 IST" name="grocery" finished-at="2022-12-14T02:55:38 IST" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grocery -->
+      </class> <!-- com.assignment.testcase.GroceryPincodeTest -->
+      <class name="com.assignment.testcase.WinteressentialsViewAllToHomeTest">
+        <test-method signature="viewall()[pri:0, instance:com.assignment.testcase.WinteressentialsViewAllToHomeTest@4be29ed9]" started-at="2022-12-14T02:55:42 IST" name="viewall" finished-at="2022-12-14T02:55:43 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewall -->
+      </class> <!-- com.assignment.testcase.WinteressentialsViewAllToHomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- suite -->
+</testng-results>
