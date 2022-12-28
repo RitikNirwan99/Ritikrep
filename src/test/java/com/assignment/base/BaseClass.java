@@ -43,12 +43,6 @@ public class BaseClass {
 //	  			options.addArguments("headless");
 	  			driver= new ChromeDriver();
 	  		}
-	    	  else if(BrowserName.equalsIgnoreCase("firefox")) 
-	    	  {
-	    		  System.setProperty("webdriver.gecko.driver", prop.getProperty("pathoffirefoxDriver"));
-	    		  driver = new FirefoxDriver();
-	    		  
-	    	  }
 	    	  
 	    	  else{
 	              //If no browser passed throw exception
