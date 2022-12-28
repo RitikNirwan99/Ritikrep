@@ -49,12 +49,7 @@ public class BaseClass {
 	    		  driver = new FirefoxDriver();
 	    		  
 	    	  }
-	    	  else if(BrowserName.equalsIgnoreCase("edge")) 
-	    	  {
-	    		  System.setProperty("webdriver.edge.driver", "D:\\Driver\\IEDriverServer.exe");
-	    		  driver = new EdgeDriver();
-	    		  
-	    	  }
+	    	  
 	    	  else{
 	              //If no browser passed throw exception
 	              throw new Exception("Browser is not correct");
